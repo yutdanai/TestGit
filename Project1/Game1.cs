@@ -11,8 +11,6 @@ namespace Project1
         //update feature1
         int speed;
         int old;
-        //update feature2
-        int speedlimit;
        
         public Game1()
         {
