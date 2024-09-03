@@ -8,7 +8,7 @@ namespace Project1
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        Texture2D character;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
