@@ -16,6 +16,7 @@ namespace Project1
         int speedlimit;
         //upadte feature3
         int distant;
+        Texture2D character;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
