@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Data;
 
 namespace Project1
 {
@@ -11,7 +12,10 @@ namespace Project1
         //update feature1
         int speed;
         int old;
-       
+        //update feature2
+        int speedlimit;
+        //upadte feature3
+        int distant;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
