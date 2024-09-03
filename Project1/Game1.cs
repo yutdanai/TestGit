@@ -8,7 +8,10 @@ namespace Project1
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        //update feature1
+        int speed;
+        int old;
+       
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -43,6 +46,7 @@ namespace Project1
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+            
 
             // TODO: Add your drawing code here
 
